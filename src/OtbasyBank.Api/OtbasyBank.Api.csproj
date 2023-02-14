@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="11.0.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\OtbasyBank.Api.Models\OtbasyBank.Api.Models.csproj" />
+	  <ProjectReference Include="..\OtbasyBank.Application\OtbasyBank.Application.csproj" />
+	  <ProjectReference Include="..\OtbasyBank.Shared\OtbasyBank.Shared.csproj" />
+	</ItemGroup>
+
+</Project>
